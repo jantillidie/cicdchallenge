@@ -17,4 +17,4 @@ jobs:
       - name: Deploy website
         run: |
           echo "start upload to s3"
-          aws s3 cp index.html s3://bucketname/ --acl public-read
+          aws s3 cp index.html s3://2209jantillidie/ --acl public-read
